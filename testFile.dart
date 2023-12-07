@@ -1,5 +1,5 @@
 import 'dart:io';
 
 void main() {
-  print("Imdadul Hauqe Ohi");
+  print("hello world");
 }
