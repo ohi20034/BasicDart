@@ -1,4 +1,7 @@
 import 'dart:io';
+
+import 'OOP/encapsulation.dart';
+
 void main() {
   // integer input and print
   stdout.write("Enter a integer number: "); // stdout.write for without endline
@@ -18,5 +21,4 @@ void main() {
   // booleans
   bool flag = false;
   print(flag);
-
 }

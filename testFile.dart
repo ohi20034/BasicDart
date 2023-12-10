@@ -1,5 +1,7 @@
+import 'OOP/encapsulation.dart';
+
 void main() {
-  Student s1 = Student();
+  /* Student s1 = Student();
   Student s2 = Student();
   s1.name = "Imdadul Haque Ohi";
   s1.address = "Sylhet";
@@ -12,7 +14,12 @@ void main() {
   Print(s1);
   Print(s2);
 
-  print(Student.noOfObject);
+  print(Student.noOfObject); */
+  Person p1 = Person();
+  p1.setName = "Nadim";
+  p1.setAge = 23;
+  print(p1.getName);
+  print(p1.getAge);
 }
 
 void Print(Student s1) {
@@ -28,7 +35,7 @@ class Student {
   late int age;
 
   static int noOfObject = 0;
-  Student(){ 
+  Student() {
     noOfObject++;
   }
 
