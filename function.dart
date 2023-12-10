@@ -29,7 +29,7 @@ void display2() {
 // arrow functon
 void sumOftwo(int a, int b) => print("Sum = ${a + b}");
 // optional positional parameter function
-void printNumber1(int n1, int n2, [n3,n4]) {
+void printNumber1(int n1, int n2, [n3, n4]) {
   print("n1 = $n1, n2 = $n2, n3 = $n3, n4 = $n4");
 }
 
